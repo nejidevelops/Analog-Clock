@@ -63,6 +63,36 @@ body{
 .hr, .min, .sec{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    border-radius: 50%;
 }
 
+.hr::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 80px;
+    background: #ff105f;
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+
+.min::before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 90px;
+    background: #fff;
+    z-index: 11;
+    border-radius: 6px 6px 0 0;
+}
+
+.sec::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 150px;
+    background: #fff;
+    z-index: 12;
+    border-radius: 6px 6px 0 0;
+}
