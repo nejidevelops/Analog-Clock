@@ -39,3 +39,23 @@ body{
     z-index: 10000;
 }
 
+.clock .hour,
+.clock .minute,
+.clock .second{
+    position: absolute;
+}
+
+.clock .hour .hr{
+    width: 160px;
+    height: 160px;
+}
+
+.clock .minute .min{
+    width: 190px;
+    height: 190px;
+}
+
+.clock .second .sec{
+    width: 210px;
+    height: 210px;
+}
