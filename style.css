@@ -59,3 +59,10 @@ body{
     width: 210px;
     height: 210px;
 }
+
+.hr, .min, .sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
